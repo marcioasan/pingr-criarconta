@@ -6,9 +6,9 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.1.4.RELEASE</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath />
 	</parent>
-	<groupId>br.com.alura</groupId>
+	<groupId>br.com.pingr</groupId>
 	<artifactId>pingr</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>pingr</name>
@@ -31,37 +31,15 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
-<!-- 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-cache</artifactId>
-		</dependency> -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
-<!-- 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>de.codecentric</groupId>
-			<artifactId>spring-boot-admin-starter-client</artifactId>
-			<version>2.1.4</version>
-		</dependency> -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-devtools</artifactId> <!--dependência para a reinicialização automática do servidor quando houver 
-				uma alteração -->
-			<scope>runtime</scope> <!--Com escopo runtime, essa dependência só será utilizada durante a execução 
-				do projeto -->
+			<artifactId>spring-boot-devtools</artifactId> 
+			<scope>runtime</scope> 
 		</dependency>
-		<!-- Spring Boot API Rest: Segurança da API, Cache e Monitoramento - 04.Gerando 
-			token com JWT, item 03 - Configurando autenticação Stateless -->
-<!-- 		<dependency>
-			<groupId>io.jsonwebtoken</groupId>
-			<artifactId>jjwt</artifactId>
-			<version>0.9.1</version>
-		</dependency> -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
